@@ -36,7 +36,11 @@ py -m venv venv
 ```
 pip install -r requirements.txt
 ```
-6. run local server to begin
+6. run migrations
+ ```
+ py manage.py migrate
+ ```
+7. run local server to begin
  ```
  py manage.py runserver
  ```
